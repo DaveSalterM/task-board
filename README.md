@@ -10,7 +10,7 @@ https://davesalterm.github.io/task-board/
 
 After navigating to the site, press the "Add Task" button to begin. There will be fields to fill out, then after selecting the "Add Task" button on the promt, a card will be created with your task information. From there you are able to move the card to the appropriate column and delete the task when done if wanted.
 
-    ![alt text](assets/images/screenshot.gif)
+![](https://github.com/DaveSalterM/task-board/blob/main/assets/images/screenshot.gif) 
 
 ## License
 
