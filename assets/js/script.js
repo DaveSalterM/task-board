@@ -1,9 +1,9 @@
 // ? Grab references to the important DOM elements.
 
 const projectDisplayEl = $('#project-display');
-const projectFormEl = $('#project-form');
-const projectNameInputEl = $('#project-name-input');
-const projectTypeInputEl = $('#project-type-input');
+const projectFormEl = $('#task-form');
+const projectNameInputEl = $('#task-name-input');
+const projectTypeInputEl = $('#task-description');
 const projectDateInputEl = $('#taskDueDate');
 
 

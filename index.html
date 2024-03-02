@@ -22,7 +22,7 @@
   </header>
   <div class="container">
     <div class="text-center mb-5">
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         Add Task
       </button>
     </div>
@@ -32,46 +32,24 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Add Task</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <!--  -->
 
-            <form id="project-form">
+            <form id="task-form">
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
                     <input
-                      id="project-name-input"
+                      id="task-name-input"
                       type="text"
                       class="form-control"
-                      placeholder="Project Name"
-                      aria-label="Project Name"
+                      placeholder="Task Name"
+                      aria-label="Task Name"
                     />
                   </li>
-                  <li class="list-group-item">
-                    <select id="project-type-input" class="form-select">
-                      <option value="Project Type" disabled selected>
-                        Project Type
-                      </option>
-                      <option value="Web Application (Front End)">
-                        Web Application (Front End)
-                      </option>
-                      <option value="Web Application (Back End)">
-                        Web Application (Back End)
-                      </option>
-                      <option value="Web Application (Full Stack)">
-                        Web Application (Full Stack)
-                      </option>
-                      <option value="Mobile Application">
-                        Mobile Application
-                      </option>
-                      <option value="Print Campaign">Print Campaign</option>
-                      <option value="Digital Marketing Campaign">
-                        Digital Marketing Campaign
-                      </option>
-                    </select>
-                  </li>
+                  
                   <li class="list-group-item">
                     <input
                       placeholder="Task Due Date"
@@ -81,19 +59,26 @@
                       id="taskDueDate"
                     />
                   </li>
+
+                  <li class="list-group-item">
+                    <input
+                      id="task-description"
+                      type="text"
+                      class="form-control"
+                      placeholder="Task Description"
+                      aria-label="Task Description"
+                    />
+                  </li>
+
                 </ul>
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-custom">
-                    Add Project
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-success">
+                    Add Task
                   </button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
               </form>
-
-            <!--  -->
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Add Task</button>
           </div>
         </div>
       </div>
